@@ -1,3 +1,289 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.mainmenu {
+  background-color: #e9edf2;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.1em;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left:0;
+}
+
+.leftmenu {
+  display: flex;
+  align-items: center;
+}
+
+.rightmenu {
+  display: flex;
+  align-items: center;
+}
+
+.leftmenu img {
+  padding-top: 5px;
+}
+
+.leftmenu a {
+  margin-left: 20px;
+}
+
+.leftmenu a:last-child {
+  color: grey;
+}
+
+.rightmenu a {
+  margin-right: 20px
+}
+
+.menubutton {
+  display: flex;
+}
+
+#marginzero {
+  margin:0;
+}
+
+.buttontrial {
+  background-color: #3f9bf8;
+  color: white;
+  border:1px solid black;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 5px 20px;
+}
+
+.buttonsign {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 5px 14px;
+}
+
+header {
+  background-color: #e9edf2;
+  padding-top: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  padding-bottom: 70px;
+}
+
+h1 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.features {
+  text-align: center;
+  background-color: #3f4655;
+  color: white;
+}
+
+.features-box {;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+}
+
+.features-box div {
+  width: 20%;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features-box p {
+  width: 80%;
+}
+
+.features div:nth-of-type(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.features div:nth-of-type(3) {
+  border-right: 1px solid black;
+}
+
+.invitation {
+  text-align: center;
+  padding-top: 30px;
+  background-color: #e9edf2;
+}
+
+.invitimg {
+  background-image: url(onepage-images/onepager03-background-printscreen.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.invitation img {
+  height: 500px;
+}
+
+.invitation p:first-child {
+  margin-bottom: 50px;
+  font-size: 1.5em;
+}
+
+.invitation p:last-of-type {
+  margin: 25px 0 50px 0;
+}
+
+.buttonfree {
+  background-color: #3f9bf8;
+  border: 1px solid black;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 1.5em;
+}
+
+.pricing {
+  text-align: center;
+}
+
+h2 {
+ font-size: 2em;
+ font-weight: normal;
+ padding-top: 50px;
+}
+
+.pricing p:nth-child(2) {
+  font-size: 1.5em;
+}
+
+.pricing-box {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 50px 0;
+  padding: 0 500px 0 500px;
+  flex-wrap: wrap;
+}
+
+.pricing-box div {
+  width:40%;
+}
+
+.pricing-box div:first-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.pricing-box p:last-child {
+  font-style: italic;
+}
+
+.pricing h3 {
+  font-weight: normal;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.pricing p {
+  font-size: 1.2em;
+}
+
+.pricing-box a {
+  background-color: #3f9bf8;
+  border: 1px solid black;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+.users {
+  background-color: #e9edf2;
+  text-align: center;
+}
+
+.users p {
+  font-size: 1.5em;
+}
+
+.users-box {
+  padding-bottom: 50px;
+}
+
 .users-box img {
   width: 140px;
+}
+
+.users-box img:nth-of-type(5) {
+  padding-bottom: 25px;
+}
+
+.start {
+  text-align: center;
+}
+
+.start h1 {
+  font-size: 2.5em;
+  padding-top: 50px;
+}
+
+.start p:nth-child(2) {
+  font-size: 1.4em;
+}
+
+.subscribe {
+  width: 30%;
+  margin: auto;
+  background-color: #e9edf2;
+}
+
+.freemonth {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border: 1px solid black;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.buttontrial:visited {
+  color: white;
+}
+
+.buttonfree:visited {
+  color: white;
+}
+
+.pricing-box a {
+  color:white;
 }

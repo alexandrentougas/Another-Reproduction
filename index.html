@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Reproduction 3</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
 </head>
+
 <body>
 
   <div class="container">
 
-    <nav class="mainmenu">
+    <!-- The menu starts here -->
 
-        <a href=""><img src="onepage-images/onepager03-logo.svg" alt=""></a>
+    <nav class="mainmenu">
 
       <div class="leftmenu">
 
+        <a href=""><img src="onepage-images/onepager03-logo.svg" alt=""></a>
         <a href="">Features</a>
         <a href="">Pricing</a>
         <a href="">More +</a>
@@ -28,12 +33,19 @@
         <a href="">Help & Support</a>
         <a href="">Blog</a>
         <a href="">Resources</a>
-        <a href=""> <button type="button" name="trial">Try it Free</button></a>
-        <a href=""> <button type="button" name="signin">Sign In</button></a>
+
+        <div class="menubutton">
+
+          <a id="marginzero" class="buttontrial" href="">Try it Free</a>
+          <a class="buttonsign" href="">Sign In</a>
+
+        </div>
 
       </div>
 
     </nav>
+
+    <!-- The menu ends here -->
 
     <header>
 
@@ -41,78 +53,101 @@
 
     </header>
 
+    <!-- Start of features section -->
+
     <section class="features">
 
-      <div class="box">
+      <div class="features-box">
 
-        <img src="onepage-images/onepager03-task-management.svg" alt="">
-        <h3>Task Management</h3>
-        <p>Stay organized with an advanced to-do<br>list and track your project.</p>
-      </div>
+        <div class="box">
 
-      <div class="box">
+          <img src="onepage-images/onepager03-task-management.svg" alt="">
+          <h3>Task Management</h3>
+          <p>Stay organized with an advanced to-do<br>list and track your project.</p>
+        </div>
 
-        <img src="onepage-images/onepager03-team-collaboration.svg" alt="">
-        <h3>Team Collaboration</h3>
-        <p>Efficiently work together with your team<br>to deliver top-notch results.</p>
-      </div>
+        <div class="box">
 
-      <div class="box">
+          <img src="onepage-images/onepager03-team-collaboration.svg" alt="">
+          <h3>Team Collaboration</h3>
+          <p>Efficiently work together with your team<br>to deliver top-notch results.</p>
+        </div>
 
-        <img src="onepage-images/onepager03-time-tracking.svg" alt="">
-        <h3>Time Tracking</h3>
-        <p>Track every minute of your work and<br>bill clients accordingly.</p>
-      </div>
+        <div class="box">
 
-      <div class="box">
+          <img src="onepage-images/onepager03-time-tracking.svg" alt="">
+          <h3>Time Tracking</h3>
+          <p>Track every minute of your work and<br>bill clients accordingly.</p>
+        </div>
 
-        <img src="onepage-images/onepager03-invoicing.svg" alt="">
-        <h3>Invoicing</h3>
-        <p>Easily issue invoices for your work, save time, and get paid.</p>
+        <div class="box">
+
+          <img src="onepage-images/onepager03-invoicing.svg" alt="">
+          <h3>Invoicing</h3>
+          <p>Easily issue invoices for your work, save time, and get paid.</p>
+        </div>
+
       </div>
 
     </section>
+
+    <!-- End of features section -->
+
+    <!-- Start of invitation section -->
 
     <section class="invitation">
 
-      <p>ActiveCollab helps your team stay organized when you outgrow email.<br>But it’s so much more than that — with plenty of neat add-ons, it’s a<br>one-stop solution for all your business needs.</p>
-      <button type="button" name="bigtrial">Try it free for 30 days!</button>
+      <p>ActiveCollab helps your team stay organized when you outgrow<br>email. But it’s so much more than that — with plenty of neat<br>add-ons, it’s a one-stop solution for all your business needs.</p>
+      <a class="buttonfree" href="">Try it free for 30 days!</a>
       <p>No credit card required, unsubscribe at any time.</p>
-      <img src="onepage-images/onepager03-printscreen.png" alt="">
+
+      <div class="invitimg">
+
+        <img src="onepage-images/onepager03-printscreen.png" alt="">
+
+      </div>
 
     </section>
 
+    <!-- End of invitation section -->
+
+    <!-- Start of pricing section -->
+
     <section class="pricing">
 
-      <h2>On cloud or your server</h2>
-      <p>ActiveCollab runs in the cloud like most browser apps today, but you can<br>also install it on your own server. Try it free for 30 days and then decide<br>what works best for you.</p>
+      <h2>On our cloud or your server</h2>
+      <p>ActiveCollab runs in the cloud like most browser apps today, but<br>you can also install it on your own server. Try it free for 30 days and<br>then decide what works best for you.</p>
 
-      <div class="invitation-box">
+      <div class="pricing-box">
 
         <div class="box">
           <img src="onepage-images/onepager03-monthly-plan.svg" alt="">
           <h3>Monthly Plans</h3>
           <p>In the cloud<br>No setup required<br>Ready in 2 minutes</p>
-          <button type="button" name="pricing">Plans & Pricing</button>
-          <p>from $25/month</p>
+          <a href="">Plans & Pricing</a>
+          <p>from $25 / month</p>
         </div>
 
         <div class="box">
           <img src="onepage-images/onepager03-self-hosted.svg" alt="">
           <h3>Self-Hosted</h3>
-          <p>Install on your own server<br>Unlimited team members and storage<br>One free year of support and upgrades</p>
-          <button type="button" name="learnmore">Learn More</button>
-          <p>Pay once, use forever</p>
+          <p>Install on your own server<br>Unlimited team members<br>One year of support included</p>
+          <a href="">Self-Hosted Pricing</a>
+          <p>one time fee &#8212; from $999</p>
         </div>
 
       </div>
 
     </section>
 
+    <!-- End of pricing section -->
+
+    <!-- Start of users secion -->
+
     <section class="users">
 
       <h2>Who's using ActiveCollab?</h2>
-      <p>For more than 10 years, we've been trusted by over 200,000 people in<br>companies ranging from small businesses to Fortune 500 members,<br>universities and government institutions.</p>
+      <p>For more than 10 years, we've been trusted by over 200,000 people<br>incompanies ranging from small businesses to Fortune 500<br>members,universities and government institutions.</p>
 
       <div class="users-box">
 
@@ -120,7 +155,7 @@
         <img src="onepage-images/publicis.svg" alt="">
         <img src="onepage-images/slack.svg" alt="">
         <img src="onepage-images/adobe.svg" alt="">
-        <img src="onepage-images/agilury(?).svg" alt="">
+        <img src="onepage-images/agilury.svg" alt="">
         <img src="onepage-images/nasa.svg" alt="">
         <img src="onepage-images/harvard.svg" alt="">
         <img src="onepage-images/nike.svg" alt="">
@@ -128,18 +163,149 @@
       </div>
     </section>
 
+    <!-- End of users section -->
+
+    <!-- Start of ...start section :p -->
+
     <section class="start">
 
       <h1>Get started with Active Collab</h1>
       <p>Enter your email to get a month of ActiveCollab<br>absolutely free, without any limitations.</p>
-      <form class="freemonth" action="index.html" method="post">
 
-        
+      <div class="subscribe">
 
-      </form>
+        <form class="freemonth" action="index.html" method="post">
+
+          <label for="nameorga">Your Name or Organization</label>
+          <input type="text" name="nameorga" value="">
+          <label for="email">Email</label>
+          <input type="text" name="email" value="">
+          <label for="password">Password</label>
+          <input type="text" name="password" value="">
+          <input type="submit" name="startfree" value="Start my free month!">
+          <p>Hope you'll enjoy it!</p>
+
+        </form>
+
+      </div>
+
+      <p>Your data is safe with us</p>
+      <a href="#">Active Collab security</a>
 
     </section>
+
+    <!-- End of start section -->
+
+    <!-- Start of infolists section -->
+
+    <section class="infolists">
+
+      <ul>
+
+        <li>Product</li>
+        <li><a href="">Features</a></li>
+        <li><a href="">All Features</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">Add-Ons</a></li>
+        <li><a href="">Roadmap</a></li>
+        <li><a href="">Timer</a></li>
+        <li><a href="">Mobile Apps</a></li>
+
+      </ul>
+
+      <ul>
+
+        <li>Alternative</li>
+        <li><a href="">Best Project Management Tools Comparison</a></li>
+        <li><a href="">Basecamp Alternative</a></li>
+        <li><a href="">Trello Alteranative</a></li>
+        <li><a href="">Asana Alternative</a></li>
+        <li><a href="">Teamwork Alternative</a></li>
+        <li><a href="">Wrike Alternative</a></li>
+        <li><a href="">JIRA Alternative</a></li>
+        <li><a href="">MS Project Alternative</a></li>
+
+      </ul>
+
+      <ul>
+
+        <li>Solution</li>
+        <li><a href="">Self-Hosted Project Management</a></li>
+        <li><a href="">Task Managament</a></li>
+        <li><a href="">Project Management</a></li>
+        <li><a href="">Team Collaboration</a></li>
+        <li><a href="">Team Management</a></li>
+        <li><a href="">Client Managaement</a></li>
+        <li><a href="">Time Tracking</a></li>
+        <li><a href="">Invoicing</a></li>
+
+      </ul>
+
+      <ul>
+
+        <li>For Teams</li>
+        <li><a href="">Marketing</a></li>
+        <li><a href="">Designers</a></li>
+        <li><a href="">Web Design</a></li>
+        <li><a href="">Web Development</a></li>
+        <li><a href="">Startups</a></li>
+        <li><a href="">SEO Agencies</a></li>
+        <li><a href="">Small Business</a></li>
+
+      </ul>
+
+      <ul>
+
+        <li>Company</li>
+        <li><a href="">About & Contact</a></li>
+        <li><a href="">Careers</a></li>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">Terms of Service</a></li>
+        <li><a href="">Security</a></li>
+
+      </ul>
+
+      <ul>
+
+        <li>Resources</li>
+        <li><a href="">Project Management Guides</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Newsletter</a></li>
+        <li><a href="">Help & Support</a></li>
+
+      </ul>
+
+    </section>
+
+    <!-- End of infolists section -->
+
+    <!-- Start of social section -->
+
+    <section class="social">
+
+      <img src="onepage-images/facebook.svg" alt="">
+      <img src="onepage-images/twitter.svg" alt="">
+      <img src="onepage-images/instagram.svg" alt="">
+      <img src="onepage-images/linkedin.svg" alt="">
+      <img src="onepage-images/medium.svg" alt="">
+
+    </section>
+
+    <!-- End of social section -->
+
+    <!-- Footer -->
+
+    <footer>
+
+      <p>Happy collaborating!</p>
+      <p>&#9400; 2007-2017 Active Collab</p>
+
+    </footer>
+
+    <!-- End of footer -->
+
   </div>
 
 </body>
+
 </html>
